@@ -55,6 +55,8 @@ You can either run this on a standalone Linux server with network connectivity t
     #### Custom properties
     - Catalog name: dataiku_catalog
 
+*  To tear down setup, run `docker compose down`
+
 ## Additional Notes
 
 The polaris-setup-worker spins up on `network_mode=host` in order to be on the same network as the host machine and setup.sh will then try to retrieve the host's machine IP address in order to configure the Polaris REST catalog to connect with the Minio service also listening on the same IP address. This process should work fine in most situations but not thoroughly validated.
