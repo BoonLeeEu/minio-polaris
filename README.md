@@ -1,6 +1,6 @@
 # Quick deploy Minio & Polaris 
 
-This project provides a sample custom docker-compose.yml file and a setup.sh to quickly spin up Minio and Polaris REST catalog containers on the same Linux server. The objective of this project is to allow quick deployment of Minio and Polaris REST catalog services set up and ready for lab testing with Iceberg in Dataiku with minimal user intervention.
+This project provides a sample custom docker-compose.yml file and a setup.sh to quickly spin up Minio and Polaris REST catalog containers on the same Linux server. The objective of this project is to allow quick deployment of Minio and Polaris REST catalog services set up and ready for lab testing on Iceberg in Dataiku with minimal user intervention.
 
 
 ## Files
